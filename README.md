@@ -1,4 +1,4 @@
-# CSCI-544-Project---Text-to-python-code-converter
+# Text-to-python-code-converter
 Use of Transformers to convert Natural Language Text into Python code
 
 Code generation transformers that are pretrained on large corpora of programs have shown great success in translating natural language to code. Although these models do not explicitly incorporate program semantics during training, they can create valid code snippets for many problems. In this project, we experiment on the translation potential of transformers and pre-trained transformers (CodeT5) in converting human languages to Python source code and gather results using BLEU evaluation. An analysis is presented to depict the outcomes of both methods. We observe a huge performance difference between the two models, with CodeT5 outperforming the base transformer and conventional recurrent-based architectures by a BLEU score of 49.06
